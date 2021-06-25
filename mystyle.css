@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,700&family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
 
-html{  
-}
 
 body{
+    overflow: hidden;
+    height: 100%;
     margin: 0px;
 }
 
@@ -20,14 +20,17 @@ body{
     justify-content: center;
 }
 
+
 #imageContainer{
-    width: 100%;
+    width: 1920px;
+    height: 1080px;
     display: flex;
     justify-content: center;
 }
 
 #cloud{
-    width: 100%;
+    width: 1920px;
+    height: 1080px;
 }
 
 #menubar{
@@ -118,11 +121,11 @@ a{
     position: absolute;
     justify-content: center;
     width: 100%;
-    margin-top: 550px;
+    margin-top: 530px;
 }
 
 #footertext{
-    align-items: center;
+    margin-bottom: 270px;
     color: #ffffff;
     user-select: none;
     list-style: none;
@@ -130,7 +133,6 @@ a{
     text-align: center;
     position: fixed;
     display: flex;
-    justify-content: center;
     padding-top: 180px;
 }
 

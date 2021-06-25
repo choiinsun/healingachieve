@@ -9,15 +9,25 @@
     <script src="scroll.js" defer></script>
 </head>
 <body>
-     <div id="mouse">
+    <div id="mouse">
         <img src="images/mousecursor.png" alt="">
     </div>
     <section id="slider">
         <div id="imageContainer">
-            <div id="imagesSlider">
-                <div id="cloud"><img src="./images/cloudnew.gif" alt="moving clouds" width="100%"></div>
+            <video id="vid" loop autoplay="autoplay" muted="muted">
+                <source src="videos/background4.mp4">
+            </video>
+            <script> document.getElementById('vid').play(); </script>
+            <!--
+            <div id="video">
+                <video controls autoplay loop src="images/backgroundd.mp4"></video>
             </div>
-        </div>
+            
+            <div id="imagesSlider">
+                <div id="cloud"><img src="./images/background2.gif" alt="moving clouds" width="100%"></div>
+            </div>
+             -->
+        </div>    
         <div id="menubar">
             <nav id="menus">
                 <ul id="menulist">
@@ -40,7 +50,7 @@
         </div>
         <footer id="footer">
             <div>
-            <img src="images/footer.png" alt="" width="100%">
+            <img src="images/footer1.png" alt="" width="100%">
             </div>
             <div id="footertext">
                 <hl id="copyright">copyright.choiinsun</h1>
