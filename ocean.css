@@ -12,6 +12,7 @@ body{
     top: 0%;
     left: 0%;
     z-index: 200;
+    pointer-events: none;
 }
 
 #menuBar{
